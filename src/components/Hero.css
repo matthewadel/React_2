@@ -11,8 +11,8 @@
     background-image: url('/src/assets/hero.jpg');
     background-size: cover;
     background-position: center;
-    width: 100%;
     position: absolute;
+    width: 100%;
     top: 0;
     left: 0;
     color: white;
@@ -24,8 +24,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width:100%;
     max-width: 1100px;
     padding: 1rem;
+    margin: auto;
 }
 
 .content p:first-child {
@@ -61,11 +63,11 @@
 }
 
 @media screen and (max-width:940px) {
-    p:nth-child(3) {
+    .content p:nth-child(3) {
         font-size: 2.6rem;
     }
 
-    p:nth-child(4) {
+    .content p:nth-child(4) {
         font-size: 1.6rem;
     }
 }

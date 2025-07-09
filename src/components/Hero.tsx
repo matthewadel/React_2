@@ -8,8 +8,8 @@ export const Hero = () => {
                 <p>0100 652 8347</p>
                 <p>Because Money</p>
                 <p>Doesn't come with instructions</p>
+                <button className="button">Free Consultation</button>
             </div>
-            <button className="button">Free Consultation</button>
         </div>
     )
 }
