@@ -17,7 +17,7 @@ export const Testimonials = () => {
     }
 
     return (
-        <div className="Testimonials">
+        <div className="Testimonials" id="testimonials">
             <div className="child">
                 <h1>Testimonials</h1>
                 <span className="line"></span>

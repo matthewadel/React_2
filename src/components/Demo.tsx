@@ -2,7 +2,7 @@ import './Demo.css'
 
 export const Demo = () => {
     return (
-        <div className='demo'>
+        <div className='demo' id="demo">
 
             <div className='container'>
 

@@ -5,6 +5,7 @@ import { useState } from 'react'
 
 export const Navbar = () => {
     const [click, setClick] = useState(false)
+    const closeNavBar = () => setClick(false)
     return (
         <div className="screen-container">
             <nav className="navbar">
@@ -16,16 +17,16 @@ export const Navbar = () => {
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <a href="/">Home</a>
+                        <a onClick={closeNavBar} href="/">Home</a>
                     </li>
                     <li className='nav-item'>
-                        <a href="/">About</a>
+                        <a onClick={closeNavBar} href="#about">About</a>
                     </li>
                     <li className='nav-item'>
-                        <a href="/">Testimonials</a>
+                        <a onClick={closeNavBar} href="#testimonials">Testimonials</a>
                     </li>
                     <li className='nav-item'>
-                        <a href="/">Demo</a>
+                        <a onClick={closeNavBar} href="#demo">Demo</a>
                     </li>
                 </ul>
             </nav>

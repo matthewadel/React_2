@@ -3,7 +3,7 @@ import john from '../assets/john-doe.png'
 
 export const About = () => {
     return (
-        <div className='about'>
+        <div className='about' id="about">
             <div className='child'>
                 <img src={john} alt="john" />
                 <div className='text-container'>
