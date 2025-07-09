@@ -51,6 +51,7 @@ body {
   border: 1px solid var(--primary-color);
   border-radius: 4px;
   cursor: pointer;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -64,6 +65,8 @@ body {
   height: 3px;
   margin: 5px auto;
   background-color: var(--primary-color);
+  margin: 0;
+  margin-top: -1rem;
 }
 
 @media (prefers-color-scheme: light) {

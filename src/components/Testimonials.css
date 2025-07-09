@@ -1,0 +1,72 @@
+.Testimonials {
+    color: #000;
+    width: 100%;
+}
+
+.Testimonials .child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1240px;
+    margin: 4rem auto;
+}
+
+.Testimonials .child h1 {
+    font-size: 3.1rem;
+    font-weight: 600;
+
+}
+
+.Testimonials .cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    grid-gap: 20px;
+    margin: 4rem 0;
+}
+
+.Testimonials .card {
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgb(0, 0, 0, .2);
+    padding: 1rem;
+}
+
+.Testimonials .card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-top: -2rem;
+}
+
+.Testimonials .card p:first-of-type {
+    color: #787878;
+    font-size: 1.1rem;
+    margin: 12px;
+}
+
+.Testimonials .card p:nth-child(3) {
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0px 12px;
+}
+
+.Testimonials .card p:last-of-type {
+    color: #787878;
+    font-size: 1.1rem;
+    margin: 12px;
+}
+
+@media screen and (max-width: 940px) {
+
+    .Testimonials .cards-container {
+        grid-template-columns: repeat(1, 1fr);
+        width: calc(100% - 32px);
+    }
+
+    .Testimonials .card {
+        margin: 1rem auto;
+    }
+}
